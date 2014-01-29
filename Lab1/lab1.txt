@@ -1,0 +1,9 @@
+test edge: 15s, 15s, 15
+test full: 3s, 2s, 3s
+
+emulator does affect network speed.
+
+Provider - public class AlarmProvider extends ContentProvider
+Activity - public class DeskClock extends Activity implements LabelDialogFragment.TimerLabelDialogHandler
+Service - public class AlarmKlaxon extends Service
+Receiver - public class AlarmReceiver extends BroadcastReceiver
