@@ -28,17 +28,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9962c3b6-6f31-4e57-885a-8ac608ed504d" name="Default" comment="Lab2: ActivityOne Updates">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab1/SimpleCalc/.gradle/1.9/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/../../Lab1/SimpleCalc/.gradle/1.9/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActivityLab.iml" afterPath="$PROJECT_DIR$/ActivityLab.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/IntentsLab/.idea/libraries/Gradle__robotium_solo_5_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/MyBrowser/.idea/libraries/Gradle__robotium_solo_5_0_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/IntentsLab/IntentsLab.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/MyBrowser/MyBrowser.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/IntentsLab/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/IntentsLab/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/MyBrowser/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/IntentsLab/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/MyBrowser/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/IntentsLab/.idea/gradle.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/MyBrowser/.idea/gradle.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/IntentsLab/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/MyBrowser/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/IntentsLab/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/MyBrowser/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/IntentsLab/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/MyBrowser/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/IntentsLab/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/MyBrowser/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/IntentsLab/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/MyBrowser/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/IntentsLab/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/MyBrowser/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/course/labs/activitylab/ActivityOne.java" afterPath="$PROJECT_DIR$/src/main/java/course/labs/activitylab/ActivityOne.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/course/labs/activitylab/ActivityTwo.java" afterPath="$PROJECT_DIR$/src/main/java/course/labs/activitylab/ActivityTwo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/instrumentTest/java/course/labs/activitylab/test/Test1.java" afterPath="$PROJECT_DIR$/src/instrumentTest/java/course/labs/activitylab/test/Test1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/instrumentTest/java/course/labs/activitylab/test/Test2.java" afterPath="$PROJECT_DIR$/src/instrumentTest/java/course/labs/activitylab/test/Test2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/instrumentTest/java/course/labs/activitylab/test/Test3.java" afterPath="$PROJECT_DIR$/src/instrumentTest/java/course/labs/activitylab/test/Test3.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab1/SimpleCalc/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Lab1/SimpleCalc/.idea/workspace.xml" />
     </list>
     <ignored path="ActivityLab.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -105,16 +118,16 @@
       <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="731">
+            <state line="3" column="22" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ActivityOne.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ActivityOne.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/activitylab/ActivityOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="129" column="0" selection-start="3479" selection-end="3479" vertical-scroll-proportion="0.0" vertical-offset="2193" max-vertical-offset="2295">
+            <state line="47" column="0" selection-start="1477" selection-end="1606" vertical-scroll-proportion="0.59865093" vertical-offset="274" max-vertical-offset="2108">
               <folding />
             </state>
           </provider>
@@ -142,9 +155,7 @@
         <entry file="file://$PROJECT_DIR$/src/instrumentTest/java/course/labs/activitylab/test/Test3.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="24" column="5" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0" vertical-offset="318" max-vertical-offset="1190">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -152,25 +163,16 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="10" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+            <state line="1" column="10" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="595">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="593">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ActivityLab.iml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ActivityLab.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="55" selection-start="5401" selection-end="5401" vertical-scroll-proportion="0.0" vertical-offset="848" max-vertical-offset="1428">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
               <folding />
             </state>
           </provider>
@@ -179,7 +181,7 @@
       <file leaf-file-name="ActivityTwo.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/activitylab/ActivityTwo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="29" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0" vertical-offset="178" max-vertical-offset="2295">
+            <state line="25" column="29" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="2295">
               <folding />
             </state>
           </provider>
@@ -556,11 +558,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/main/java/course/labs/activitylab/ActivityTwo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/course/labs/activitylab/ActivityOne.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/instrumentTest/java/course/labs/activitylab/test/Test1.java" />
         <option value="$PROJECT_DIR$/src/instrumentTest/java/course/labs/activitylab/test/Test2.java" />
         <option value="$PROJECT_DIR$/src/instrumentTest/java/course/labs/activitylab/test/Test3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/course/labs/activitylab/ActivityOne.java" />
       </list>
     </option>
   </component>
@@ -577,7 +579,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -596,6 +598,20 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ActivityLab">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -645,84 +661,10 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ActivityLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ActivityLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ActivityLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ActivityLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="instrumentTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ActivityLab">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -737,13 +679,14 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="recentsLimit" value="5" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="T06200569R" />
     <property name="project.structure.last.edited" value="Android SDK" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="FullScreen" value="false" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="emulator1" />
   </component>
-  <component name="RunManager" selected="Android Tests.Test3">
+  <component name="RunManager" selected="Android Application.ActivityLab">
     <configuration default="false" name="Test1" type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true" nameIsGenerated="true">
       <module name="ActivityLab" />
       <option name="TESTING_TYPE" value="2" />
@@ -1015,7 +958,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1042,7 +985,7 @@
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USERS">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
       <collection />
     </option>
   </component>
@@ -1061,6 +1004,107 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/instrumentTest/java/course/labs/activitylab/test/Test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="86" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1156">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/instrumentTest/java/course/labs/activitylab/test/Test3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="5" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0" vertical-offset="318" max-vertical-offset="1190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="10" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ActivityLab.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="55" selection-start="5401" selection-end="5401" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/activitylab/ActivityTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="29" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="2295">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/activitylab/ActivityOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="129" column="0" selection-start="3479" selection-end="3479" vertical-scroll-proportion="0.0" vertical-offset="2193" max-vertical-offset="2295">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/instrumentTest/java/course/labs/activitylab/test/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="86" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0" vertical-offset="172" max-vertical-offset="986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/instrumentTest/java/course/labs/activitylab/test/Test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="86" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1156">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/instrumentTest/java/course/labs/activitylab/test/Test3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="5" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0" vertical-offset="318" max-vertical-offset="1190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="10" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ActivityLab.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="55" selection-start="5401" selection-end="5401" vertical-scroll-proportion="0.0" vertical-offset="848" max-vertical-offset="1428" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/activitylab/ActivityTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="29" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2295">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="0" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
@@ -1092,17 +1136,13 @@
     <entry file="file://$PROJECT_DIR$/src/instrumentTest/java/course/labs/activitylab/test/Test3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="5" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1190">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ActivityLab.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="55" selection-start="5401" selection-end="5401" vertical-scroll-proportion="0.0" vertical-offset="848" max-vertical-offset="1428">
-          <folding />
-        </state>
+        <state line="73" column="55" selection-start="5401" selection-end="5401" vertical-scroll-proportion="0.0" vertical-offset="848" max-vertical-offset="1428" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/activitylab/ActivityTwo.java">
@@ -1143,17 +1183,13 @@
     <entry file="file://$PROJECT_DIR$/src/instrumentTest/java/course/labs/activitylab/test/Test3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="27" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1173">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ActivityLab.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="59" selection-start="5624" selection-end="5624" vertical-scroll-proportion="0.0" vertical-offset="882" max-vertical-offset="1462">
-          <folding />
-        </state>
+        <state line="75" column="59" selection-start="5624" selection-end="5624" vertical-scroll-proportion="0.0" vertical-offset="882" max-vertical-offset="1462" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/activitylab/ActivityTwo.java">
@@ -1242,34 +1278,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/activitylab/ActivityTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="29" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0" vertical-offset="178" max-vertical-offset="2295">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ActivityLab.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="55" selection-start="5401" selection-end="5401" vertical-scroll-proportion="0.0" vertical-offset="848" max-vertical-offset="1428">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="611" selection-end="611" vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="731">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/activitylab/ActivityOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="0" selection-start="3479" selection-end="3479" vertical-scroll-proportion="0.0" vertical-offset="1702" max-vertical-offset="2295">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/instrumentTest/java/course/labs/activitylab/test/Test1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="86" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0" vertical-offset="172" max-vertical-offset="986">
@@ -1287,9 +1295,7 @@
     <entry file="file://$PROJECT_DIR$/src/instrumentTest/java/course/labs/activitylab/test/Test3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="5" selection-start="621" selection-end="621" vertical-scroll-proportion="0.0" vertical-offset="318" max-vertical-offset="1190">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1300,9 +1306,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ActivityLab.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="55" selection-start="5401" selection-end="5401" vertical-scroll-proportion="0.6775862" vertical-offset="848" max-vertical-offset="1428" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="593">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="568">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/activitylab/ActivityTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="29" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0" vertical-offset="178" max-vertical-offset="2295">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="22" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/activitylab/ActivityOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="0" selection-start="1477" selection-end="1606" vertical-scroll-proportion="0.59865093" vertical-offset="274" max-vertical-offset="2108">
           <folding />
         </state>
       </provider>

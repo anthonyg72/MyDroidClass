@@ -45,7 +45,7 @@ public class ActivityOne extends Activity {
 			
 			@Override
 			public void onClick(View v) {
-				Intent activityTwoIntent = new Intent(v.getContext(), ActivityTwo.class);
+				Intent activityTwoIntent = new Intent(ActivityOne.this, ActivityTwo.class);
                 startActivity(activityTwoIntent);
 			}
 		});
