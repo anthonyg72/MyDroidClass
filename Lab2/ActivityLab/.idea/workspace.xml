@@ -28,30 +28,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9962c3b6-6f31-4e57-885a-8ac608ed504d" name="Default" comment="Lab2: ActivityOne Updates">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/IntentsLab/.idea/libraries/Gradle__robotium_solo_5_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/MyBrowser/.idea/libraries/Gradle__robotium_solo_5_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/IntentsLab/IntentsLab.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/MyBrowser/MyBrowser.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/IntentsLab/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/IntentsLab/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/MyBrowser/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/IntentsLab/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/MyBrowser/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/IntentsLab/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/MyBrowser/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/IntentsLab/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/MyBrowser/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/IntentsLab/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/MyBrowser/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/IntentsLab/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/MyBrowser/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/IntentsLab/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/MyBrowser/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/IntentsLab/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/MyBrowser/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/IntentsLab/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/MyBrowser/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/course/labs/activitylab/ActivityOne.java" afterPath="$PROJECT_DIR$/src/main/java/course/labs/activitylab/ActivityOne.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab3/IntentsLab/src/main/java/course/labs/intentslab/ActivityLoaderActivity.java" afterPath="$PROJECT_DIR$/../../Lab3/IntentsLab/src/main/java/course/labs/intentslab/ActivityLoaderActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab3/IntentsLab/src/main/java/course/labs/intentslab/ExplicitlyLoadedActivity.java" afterPath="$PROJECT_DIR$/../../Lab3/IntentsLab/src/main/java/course/labs/intentslab/ExplicitlyLoadedActivity.java" />
     </list>
     <ignored path="ActivityLab.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -957,7 +935,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />

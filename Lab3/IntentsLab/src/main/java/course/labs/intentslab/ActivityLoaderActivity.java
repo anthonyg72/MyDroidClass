@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 public class ActivityLoaderActivity extends Activity {
 
-	static private final int GET_TEXT_REQUEST_CODE = 1;
+	static private final int GET_TEXT_REQUEST_CODE = 101;
 	static private final String URL = "http://www.google.com";
 	static private final String TAG = "Lab-Intents";
 
@@ -89,14 +89,11 @@ public class ActivityLoaderActivity extends Activity {
 	@Override
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 
-		Log.i(TAG, "Entered onActivityResult()");
+        Log.i(TAG, "Entered onActivityResult()");
 
-        if(requestCode == RESULT_OK && resultCode == GET_TEXT_REQUEST_CODE)
+        if(requestCode == GET_TEXT_REQUEST_CODE && resultCode == RESULT_OK)
         {
-            mUserTextView.setText(data.toString());
+            mUserTextView.setText(data.getStringExtra("id"));
         }
-		// TODO - Process the result only if this method received both a
-		// RESULT_OK result code and a recognized request code
-		// If so, update the Textview showing the user-entered text.
 	}
 }
