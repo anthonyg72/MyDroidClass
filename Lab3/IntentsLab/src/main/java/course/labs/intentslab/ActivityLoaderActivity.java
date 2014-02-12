@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 public class ActivityLoaderActivity extends Activity {
 
-	static private final int GET_TEXT_REQUEST_CODE = 101;
+	static private final int GET_TEXT_REQUEST_CODE = 1;
 	static private final String URL = "http://www.google.com";
 	static private final String TAG = "Lab-Intents";
 
@@ -69,21 +69,21 @@ public class ActivityLoaderActivity extends Activity {
 
 		Log.i(TAG, "Entered startImplicitActivation()");
 
-		// TODO - Create a base intent for viewing a URL 
-		// (HINT:  second parameter uses parse() from the Uri class)
-		
-		
+        // TODO - Create a base intent for viewing a URL
+        // (HINT:  second parameter uses parse() from the Uri class)
+        Intent implicitIntent = new Intent(
+                Intent.ACTION_VIEW, Uri.parse(URL));
+
 		// TODO - Create a chooser intent, for choosing which Activity
 		// will carry out the baseIntent. Store the Intent in the 
 		// chooserIntent variable below. HINT: using the Intent class' 
 		// createChooser())
-		
-		Intent chooserIntent = null;
+
+        Intent chooserIntent = Intent.createChooser(implicitIntent, CHOOSER_TEXT);
 
 		Log.i(TAG,"Chooser Intent Action:" + chooserIntent.getAction());
 		// TODO - Start the chooser Activity, using the chooser intent
-		startActivity(chooserIntent);
-
+        startActivity(chooserIntent);
 	}
 
 	@Override

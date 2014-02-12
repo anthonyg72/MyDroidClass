@@ -1,0 +1,3 @@
+02-12 01:47:24.792    2132-2132/course.labs.intentslab I/Lab-Intents﹕ Entered startExplicitActivation()
+02-12 01:47:27.802    2132-2132/course.labs.intentslab I/Lab-Intents﹕ Entered enterClicked()
+02-12 01:47:27.882    2132-2132/course.labs.intentslab I/Lab-Intents﹕ Entered onActivityResult()
