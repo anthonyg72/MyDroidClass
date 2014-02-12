@@ -40,6 +40,9 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/PermissionsLab/.idea/scopes/scope_settings.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/PermissionsLab/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab3/PermissionsLab/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab3/DangerousApp/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../../Lab3/DangerousApp/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab3/PermissionsLab/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../../Lab3/PermissionsLab/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab3/PermissionsLab/src/main/java/course/labs/permissionslab/BookmarksActivity.java" afterPath="$PROJECT_DIR$/../../Lab3/PermissionsLab/src/main/java/course/labs/permissionslab/BookmarksActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab3/IntentsLab/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Lab3/IntentsLab/.idea/workspace.xml" />
     </list>
     <ignored path="ActivityLab.iws" />
