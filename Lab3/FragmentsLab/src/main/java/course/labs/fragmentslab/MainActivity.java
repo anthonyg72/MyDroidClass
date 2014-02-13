@@ -1,7 +1,9 @@
 package course.labs.fragmentslab;
 
 import android.app.Activity;
+import android.app.FragmentManager;
 import android.app.FragmentTransaction;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 
@@ -12,8 +14,10 @@ public class MainActivity extends Activity implements
 
 	private FriendsFragment mFriendsFragment;
 	private FeedFragment mFeedFragment;
+    private FragmentManager mFragmentManager;
 
-	@Override
+
+    @Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main_activity);
@@ -24,9 +28,14 @@ public class MainActivity extends Activity implements
 		if (!isInTwoPaneMode()) {
 			
 			mFriendsFragment = new FriendsFragment();
+            mFragmentManager = getFragmentManager();
+            FragmentTransaction fragmentTransaction = mFragmentManager
+                    .beginTransaction();
+            fragmentTransaction.add(R.id.fragment_container, mFriendsFragment);
+            fragmentTransaction.commit();
 
 			//TODO 1 - add the FriendsFragment to the fragment_container
-		} else {
+        } else {
 
 			// Otherwise, save a reference to the FeedFragment for later use
 
@@ -61,9 +70,12 @@ public class MainActivity extends Activity implements
 		if (!isInTwoPaneMode()) {
 
 			//TODO 2 - replace the fragment_container with the FeedFragment
-			
-
-			
+            FragmentTransaction fragmentTransaction = mFragmentManager
+                    .beginTransaction();
+            fragmentTransaction.remove(mFriendsFragment);
+            fragmentTransaction.add(R.id.fragment_container, mFeedFragment);
+            fragmentTransaction.addToBackStack(null);
+            fragmentTransaction.commit();
 
 			// execute transaction now
 			getFragmentManager().executePendingTransactions();
