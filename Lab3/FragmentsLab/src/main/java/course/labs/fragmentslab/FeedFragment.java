@@ -29,9 +29,7 @@ public class FeedFragment extends Fragment {
 
 		// Read in all Twitter feeds 
 		if (null == feedFragmentData) { 
-			
 			feedFragmentData = new FeedFragmentData(getActivity());
-
 		}
 	}
 
