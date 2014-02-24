@@ -11,16 +11,22 @@ import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.text.ParseException;
 import java.util.Date;
+import java.util.zip.Inflater;
 
 import android.app.ListActivity;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.ViewGroup;
+import android.widget.ListAdapter;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import course.labs.todomanager.ToDoItem.Priority;
 import course.labs.todomanager.ToDoItem.Status;
@@ -51,22 +57,27 @@ public class ToDoManagerActivity extends ListActivity {
 
 		//TODO - Inflate footerView for footer_view.xml file
 
-		TextView footerView = null;
+		TextView footerView = (TextView) getLayoutInflater().inflate(R.layout.footer_view, null);
 
-		//TODO - Add footerView to ListView
+    	//TODO - Add footerView to ListView
 
-		footerView.setOnClickListener(new OnClickListener() {
-			@Override
-			public void onClick(View v) {
+        getListView().addFooterView(footerView);
 
-				log("Entered footerView.OnClickListener.onClick()");
+        assert footerView != null;
+        footerView.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
 
-				//TODO - Attach Listener to FooterView. Implement onClick().
+                log("Entered footerView.OnClickListener.onClick()");
 
-			}
-		});
+                //TODO - Attach Listener to FooterView. Implement onClick().
+                Intent intent = new Intent(getBaseContext(), AddToDoActivity.class);
+                startActivityForResult(intent, ADD_TODO_ITEM_REQUEST);
+            }
+        });
 
 		//TODO - Attach the adapter to this ListActivity's ListView
+        getListView().setAdapter(mAdapter);
 
 	}
 
@@ -75,11 +86,14 @@ public class ToDoManagerActivity extends ListActivity {
 
 		log("Entered onActivityResult()");
 
-		// TODO - Check result code and request code.
+		//TODO - Check result code and request code.
 		// If user submitted a new ToDoItem
 		// Create a new ToDoItem from the data Intent
 		// and then add it to the adapter
-
+        if (requestCode == ADD_TODO_ITEM_REQUEST && resultCode == RESULT_OK) {
+            ToDoItem item = new ToDoItem(data);
+            mAdapter.add(item);
+        }
 	}
 
 	// Do not modify below here

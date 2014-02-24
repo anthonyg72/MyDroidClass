@@ -15,11 +15,11 @@ public class ToDoItem {
 
 	public enum Priority {
 		LOW, MED, HIGH
-	};
+	}
 
 	public enum Status {
 		NOTDONE, DONE
-	};
+	}
 
 	public final static String TITLE = "title";
 	public final static String PRIORITY = "priority";
