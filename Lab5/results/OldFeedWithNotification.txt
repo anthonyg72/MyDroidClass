@@ -1,0 +1,7 @@
+02-25 04:31:39.414    3171-3171/course.labs.notificationslab I/Lab-Notifications? In ensureData(), mIsFresh:false
+02-25 04:31:39.924    3171-3171/course.labs.notificationslab I/Lab-Notifications? Issuing Toast Message
+02-25 04:31:40.444    3171-3189/course.labs.notificationslab I/Lab-Notifications? Entered doInBackground()
+02-25 04:31:56.615    3171-3189/course.labs.notificationslab I/Lab-Notifications? Tweet Download Completed:true
+02-25 04:31:57.125    3171-3189/course.labs.notificationslab I/Lab-Notifications? Entered notify()
+02-25 04:31:57.715    3171-3171/course.labs.notificationslab I/Lab-Notifications? Entered result receiver's onReceive() method
+02-25 04:31:58.225    3171-3171/course.labs.notificationslab I/Lab-Notifications? Notification Area Notification sent
