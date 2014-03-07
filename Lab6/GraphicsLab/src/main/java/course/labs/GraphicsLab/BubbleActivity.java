@@ -21,6 +21,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.RelativeLayout;
 
 public class BubbleActivity extends Activity {
@@ -88,7 +89,7 @@ public class BubbleActivity extends Activity {
 				/ mAudioManager.getStreamMaxVolume(AudioManager.STREAM_MUSIC);
 
 		// TODO - make a new SoundPool, allowing up to 10 streams 
-		mSoundPool = new SoundPool(10, AudioManager.STREAM_NOTIFICATION, 0);
+		mSoundPool = new SoundPool(10, AudioManager.STREAM_MUSIC, 0);
 
 		// TODO - set a SoundPool OnLoadCompletedListener that calls setupGestureDetector()
         mSoundPool.setOnLoadCompleteListener(new SoundPool.OnLoadCompleteListener() {
@@ -147,7 +148,19 @@ public class BubbleActivity extends Activity {
 				// TODO - Implement onSingleTapConfirmed actions.
 				// You can get all Views in mFrame using the
 				// ViewGroup.getChildCount() method
-
+                BubbleView bubbleView;
+                boolean found = false;
+                for(int idx = 0; idx < mFrame.getChildCount(); idx++) {
+                    bubbleView = (BubbleView) mFrame.getChildAt(idx);
+                    if(bubbleView.intersects(event.getX(), event.getY())) {
+                        mFrame.removeView(bubbleView);
+                        found = true;
+                    }
+                }
+                if(!found) {
+                    bubbleView = new BubbleView(getApplicationContext(), (int) event.getX(), (int) event.getY())
+                    mFrame.addView(bubbleView);
+                }
 
 				return false;
 			}
@@ -158,9 +171,9 @@ public class BubbleActivity extends Activity {
 	public boolean onTouchEvent(MotionEvent event) {
 
 		// TODO - delegate the touch to the gestureDetector 
+        mGestureDetector.onTouchEvent(event);
 
-		
-		return false;
+        return false;
 	
 	}
 
@@ -168,7 +181,11 @@ public class BubbleActivity extends Activity {
 	protected void onPause() {
 		
 		// TODO - Release all SoundPool resources
-
+        if (null != mSoundPool) {
+            mSoundPool.unload(mSoundID);
+            mSoundPool.release();
+            mSoundPool = null;
+        }
 
 		super.onPause();
 	}
@@ -219,7 +236,7 @@ public class BubbleActivity extends Activity {
 			if (speedMode == RANDOM) {
 				
 				// TODO - set rotation in range [1..3]
-				mDRotate = r.nextInt(2) + 1;
+				mDRotate = r.nextInt(3) + 1;
 			} else {
 				mDRotate = 0;
 			}
@@ -246,32 +263,24 @@ public class BubbleActivity extends Activity {
 				// TODO - Set movement direction and speed
 				// Limit movement speed in the x and y
 				// direction to [-3..3].
-
-
-
-			
-			
-			
-			
-			
+                mDx = (r.nextFloat()*6) - 3;
+                mDy = (r.nextFloat()*6) - 3;
+                break;
 			}
 		}
 
 		private void createScaledBitmap(Random r) {
 
 			if (speedMode != RANDOM) {
-
 				mScaledBitmapWidth = BITMAP_SIZE * 3;
-			
 			} else {
-			
-				//TODO - set scaled bitmap size in range [1..3] * BITMAP_SIZE
-				mScaledBitmapWidth = 0;
-			
+                //TODO - set scaled bitmap size in range [1..3] * BITMAP_SIZE
+				mScaledBitmapWidth = (r.nextInt(3)+ 1) * BITMAP_SIZE;
 			}
 
 			// TODO - create the scaled bitmap using size set above
-			mScaledBitmap = null;
+			mScaledBitmap = Bitmap.createScaledBitmap(mBitmap,
+                    mScaledBitmapWidth, mScaledBitmapWidth, false);
 		}
 
 		// Start moving the BubbleView & updating the display
@@ -303,10 +312,16 @@ public class BubbleActivity extends Activity {
 		}
 
 		private synchronized boolean intersects(float x, float y) {
-
 			// TODO - Return true if the BubbleView intersects position (x,y)
-
-			return false;
+            float maxLeft = mXPos - (mScaledBitmapWidth/2);
+            float maxRight = mXPos + (mScaledBitmapWidth/2);
+            float maxTop = mYPos + (mScaledBitmapWidth/2);
+            float maxBottom = mYPos - (mScaledBitmapWidth/2);
+            if (x > maxLeft && x < maxRight && y > maxBottom && y < maxTop) {
+                return true;
+            }
+            else
+    			return false;
 		}
 
 		// Cancel the Bubble's movement
