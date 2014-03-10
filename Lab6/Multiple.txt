@@ -1,0 +1,2 @@
+03-09 23:56:47.873    2682-2682/course.labs.GraphicsLab I/Lab-Graphics﹕ Creating Bubble at: x:250.0 y:250.0
+03-09 23:56:49.393    2682-2682/course.labs.GraphicsLab I/Lab-Graphics﹕ Creating Bubble at: x:500.0 y:500.0

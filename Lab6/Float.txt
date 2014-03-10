@@ -1,0 +1,2 @@
+03-09 23:56:24.152    2617-2617/course.labs.GraphicsLab I/Lab-Graphics﹕ Creating Bubble at: x:500.0 y:500.0
+03-09 23:56:26.462    2617-2617/course.labs.GraphicsLab I/Lab-Graphics﹕ Bubble removed from view!
