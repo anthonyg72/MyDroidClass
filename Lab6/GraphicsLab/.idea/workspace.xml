@@ -5,7 +5,7 @@
       <filter>
         <option name="logLevel" value="verbose" />
         <option name="logMessagePattern" value="" />
-        <option name="logTagPattern" value="Lab-Graphics" />
+        <option name="logTagPattern" value="" />
         <option name="name" value="app: course.labs.GraphicsLab" />
         <option name="packageNamePattern" value="course.labs.GraphicsLab" />
         <option name="pid" value="" />
@@ -103,7 +103,7 @@
       <file leaf-file-name="BubbleActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/GraphicsLab/BubbleActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="424" column="9" selection-start="12007" selection-end="12007" vertical-scroll-proportion="0.7335582" vertical-offset="6620" max-vertical-offset="7854">
+            <state line="2" column="0" selection-start="34" selection-end="34" vertical-scroll-proportion="0.05733558" vertical-offset="0" max-vertical-offset="8262">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -862,36 +862,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="instrumentTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GraphicsLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GraphicsLab" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="instrumentTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -914,10 +884,33 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="T06200569R" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="tablet" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
-  <component name="RunManager" selected="Android Tests.BubbleActivityPop">
+  <component name="RunManager" selected="Android Application.BubbleActivity">
+    <configuration default="false" name="BubbleActivity" type="AndroidRunConfigurationType" factoryName="Android Application" temporary="true">
+      <module name="GraphicsLab" />
+      <option name="ACTIVITY_CLASS" value="course.labs.GraphicsLab.BubbleActivity" />
+      <option name="MODE" value="specific_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
     <configuration default="false" name="BubbleActivityFling" type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true" nameIsGenerated="true">
       <module name="GraphicsLab" />
       <option name="TESTING_TYPE" value="2" />
@@ -1155,19 +1148,21 @@
       <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
     </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Android Application.GraphicsLab" />
-      <item index="1" class="java.lang.String" itemvalue="Android Tests.BubbleActivityFling" />
-      <item index="2" class="java.lang.String" itemvalue="Android Tests.BubbleActivityFloatO..." />
-      <item index="3" class="java.lang.String" itemvalue="Android Tests.BubbleActivityMultip..." />
-      <item index="4" class="java.lang.String" itemvalue="Android Tests.BubbleActivityPop" />
+      <item index="1" class="java.lang.String" itemvalue="Android Application.BubbleActivity" />
+      <item index="2" class="java.lang.String" itemvalue="Android Tests.BubbleActivityFling" />
+      <item index="3" class="java.lang.String" itemvalue="Android Tests.BubbleActivityFloatO..." />
+      <item index="4" class="java.lang.String" itemvalue="Android Tests.BubbleActivityMultip..." />
+      <item index="5" class="java.lang.String" itemvalue="Android Tests.BubbleActivityPop" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Android Tests.BubbleActivityPop" />
-        <item index="1" class="java.lang.String" itemvalue="Android Tests.BubbleActivityMultip..." />
-        <item index="2" class="java.lang.String" itemvalue="Android Tests.BubbleActivityFloatO..." />
-        <item index="3" class="java.lang.String" itemvalue="Android Tests.BubbleActivityFling" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Android Application.BubbleActivity" />
+        <item index="1" class="java.lang.String" itemvalue="Android Tests.BubbleActivityPop" />
+        <item index="2" class="java.lang.String" itemvalue="Android Tests.BubbleActivityMultip..." />
+        <item index="3" class="java.lang.String" itemvalue="Android Tests.BubbleActivityFloatO..." />
+        <item index="4" class="java.lang.String" itemvalue="Android Tests.BubbleActivityFling" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
@@ -1403,7 +1398,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/GraphicsLab/BubbleActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="424" column="9" selection-start="12007" selection-end="12007" vertical-scroll-proportion="0.7335582" vertical-offset="6620" max-vertical-offset="7854">
+        <state line="2" column="0" selection-start="34" selection-end="34" vertical-scroll-proportion="0.05733558" vertical-offset="0" max-vertical-offset="8262">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

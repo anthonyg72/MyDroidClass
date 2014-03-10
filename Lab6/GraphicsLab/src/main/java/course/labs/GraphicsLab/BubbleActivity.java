@@ -312,6 +312,8 @@ public class BubbleActivity extends Activity {
                         stop(false);
                     }
 
+//                    edgeDetection();
+
                     BubbleView.this.postInvalidate();
 					
 					
@@ -322,15 +324,19 @@ public class BubbleActivity extends Activity {
 
 		private synchronized boolean intersects(float x, float y) {
 			// TODO - Return true if the BubbleView intersects position (x,y)
-            float maxLeft = mXPos;
-            float maxRight = mXPos + (mScaledBitmapWidth);
-            float maxTop = mYPos + (mScaledBitmapWidth);
-            float maxBottom = mYPos;
-            if (x > maxLeft && x < maxRight && y > maxBottom && y < maxTop) {
+            float centerX = mXPos + (mScaledBitmapWidth/2);
+            float centerY = mYPos + (mScaledBitmapWidth/2);
+            float distX, distY;
+
+            distX = centerX > x ? centerX - x : x - centerX;
+            distY = centerY > y ? centerY - y : y - centerY;
+
+            double hypotenuse = Math.hypot(distX, distY);
+            Log.i("TONY_TEST", "hypotenuse:" + hypotenuse + " width:"+ (mScaledBitmapWidth/2));
+            if(hypotenuse < (mScaledBitmapWidth/2))
                 return true;
-            }
             else
-    			return false;
+                return false;
 		}
 
 		// Cancel the Bubble's movement
@@ -423,6 +429,24 @@ public class BubbleActivity extends Activity {
             }
 			return false;
 		}
+
+        private boolean edgeDetection() {
+            boolean ret = false;
+            // TODO - Return true if the BubbleView has exited the screen
+            if( (mXPos + mScaledBitmapWidth> mDisplayWidth) || (mXPos < 0))
+            {
+                mDx *=-1;
+                ret = true;
+            }
+
+            if ((mYPos + mScaledBitmapWidth > mDisplayHeight) || (mYPos  < 0))
+            {
+                mDy *=-1;
+                ret = true;
+            }
+
+            return ret;
+        }
 	}
 
 	// Do not modify below here
