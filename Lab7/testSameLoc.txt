@@ -1,0 +1,6 @@
+03-17 23:55:41.488    2242-2242/course.labs.locationlab I/Lab-Location﹕ Entered footerView.OnClickListener.onClick()
+03-17 23:55:41.998    2242-2242/course.labs.locationlab I/Lab-Location﹕ Starting Place Download
+03-17 23:55:43.228    2242-2242/course.labs.locationlab I/Lab-Location﹕ Entered addNewPlace()
+03-17 23:55:46.728    2242-2242/course.labs.locationlab I/Lab-Location﹕ Entered footerView.OnClickListener.onClick()
+03-17 23:55:47.238    2242-2242/course.labs.locationlab I/Lab-Location﹕ You already have this location badge
+03-17 23:55:52.758    2242-2242/course.labs.locationlab I/Lab-Location﹕ Place: The Greenhouse Country: United States

@@ -27,29 +27,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48259a1f-c112-40d5-b138-fd805e0c7e4e" name="Default" comment="Lab 5: Initial commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab7/LocationLab/LocationLab.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab7/LocationLab/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab7/LocationLab/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab7/LocationLab/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab7/LocationLab/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab7/LocationLab/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab7/LocationLab/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab7/LocationLab/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab7/LocationLab/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab7/LocationLab/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab7/LocationLab/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="D:\Documents\Github\MyDroidClass\Lab6\GraphicsLab\.idea\libraries\robotium_solo_5_0_2_SNAPSHOT.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab4/UILabs/.idea/libraries/Gradle__robotium_solo_5_0_2_SNAPSHOT.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab4/UILabs/.gradle/1.9/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/../../Lab4/UILabs/.gradle/1.9/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab6/GraphicsLab/.gradle/1.9/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/../../Lab6/GraphicsLab/.gradle/1.9/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab6/GraphicsLab/GraphicsLab.iml" afterPath="$PROJECT_DIR$/../../Lab6/GraphicsLab/GraphicsLab.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NotificationsLab.iml" afterPath="$PROJECT_DIR$/NotificationsLab.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab6/GraphicsLab/build.gradle" afterPath="$PROJECT_DIR$/../../Lab6/GraphicsLab/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab6/GraphicsLab/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/../../Lab6/GraphicsLab/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab7/LocationLab/.gradle/1.9/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/../../Lab7/LocationLab/.gradle/1.9/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab7/LocationLab/.gradle/1.9/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/../../Lab7/LocationLab/.gradle/1.9/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab7/LocationLab/.gradle/1.9/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/../../Lab7/LocationLab/.gradle/1.9/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab7/LocationLab/.gradle/1.9/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/../../Lab7/LocationLab/.gradle/1.9/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab7/LocationLab/.gradle/1.9/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/../../Lab7/LocationLab/.gradle/1.9/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab7/LocationLab/src/main/java/course/labs/locationlab/PlaceDownloaderTask.java" afterPath="$PROJECT_DIR$/../../Lab7/LocationLab/src/main/java/course/labs/locationlab/PlaceDownloaderTask.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab7/LocationLab/src/main/java/course/labs/locationlab/PlaceViewActivity.java" afterPath="$PROJECT_DIR$/../../Lab7/LocationLab/src/main/java/course/labs/locationlab/PlaceViewActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab4/UILabs/UILabs.iml" afterPath="$PROJECT_DIR$/../../Lab4/UILabs/UILabs.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab7/LocationLab/build.gradle" afterPath="$PROJECT_DIR$/../../Lab7/LocationLab/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab6/GraphicsLab/.idea/gradle.xml" afterPath="$PROJECT_DIR$/../../Lab6/GraphicsLab/.idea/gradle.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab4/UILabs/.idea/misc.xml" afterPath="$PROJECT_DIR$/../../Lab4/UILabs/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab6/GraphicsLab/.idea/misc.xml" afterPath="$PROJECT_DIR$/../../Lab6/GraphicsLab/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab4/UILabs/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Lab4/UILabs/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab6/GraphicsLab/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Lab6/GraphicsLab/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab7/LocationLab/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Lab7/LocationLab/.idea/workspace.xml" />
     </list>
     <ignored path="NotificationsLab.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -113,20 +107,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="build.gradle" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="30" selection-start="336" selection-end="336" vertical-scroll-proportion="0.3726813" vertical-offset="0" max-vertical-offset="731">
+            <state line="15" column="19" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="731">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/notificationslab/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="118" column="9" selection-start="4028" selection-end="4028" vertical-scroll-proportion="0.0" vertical-offset="1647" max-vertical-offset="4879">
-              <folding />
+            <state line="188" column="0" selection-start="5471" selection-end="5471" vertical-scroll-proportion="0.53968257" vertical-offset="2839" max-vertical-offset="4828">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -568,10 +564,10 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/course/labs/notificationslab/TestFrontEndActivity.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/main/java/course/labs/notificationslab/DownloaderTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/course/labs/notificationslab/MainActivity.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -607,7 +603,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -764,6 +759,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -899,19 +895,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -937,6 +920,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1074,7 +1070,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1129,6 +1125,60 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="19" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/notificationslab/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="147" column="18" selection-start="4532" selection-end="4532" vertical-scroll-proportion="0.0" vertical-offset="2499" max-vertical-offset="4488">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="33" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/notificationslab/SelectionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="17" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/notificationslab/DownloaderTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="202" column="56" selection-start="6273" selection-end="6273" vertical-scroll-proportion="0.0" vertical-offset="3434" max-vertical-offset="4284">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/notificationslab/TestFrontEndActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="0" selection-start="2986" selection-end="2986" vertical-scroll-proportion="0.0" vertical-offset="2074" max-vertical-offset="2193">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/custom_notification.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="38" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="5" selection-start="0" selection-end="738" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="731">
           <folding />
         </state>
@@ -1137,7 +1187,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/notificationslab/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="118" column="9" selection-start="4028" selection-end="4028" vertical-scroll-proportion="0.0" vertical-offset="1647" max-vertical-offset="4879">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1189,7 +1241,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/notificationslab/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="118" column="9" selection-start="4028" selection-end="4028" vertical-scroll-proportion="0.0" vertical-offset="1647" max-vertical-offset="4879">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1241,7 +1295,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/notificationslab/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="118" column="9" selection-start="4028" selection-end="4028" vertical-scroll-proportion="0.0" vertical-offset="1647" max-vertical-offset="4879">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1331,13 +1387,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/notificationslab/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="9" selection-start="4028" selection-end="4028" vertical-scroll-proportion="0.0" vertical-offset="1647" max-vertical-offset="4879">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="33" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" vertical-offset="27" max-vertical-offset="748">
@@ -1378,8 +1427,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="30" selection-start="336" selection-end="336" vertical-scroll-proportion="0.3726813" vertical-offset="0" max-vertical-offset="731">
+        <state line="15" column="19" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="731">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/notificationslab/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="188" column="0" selection-start="5471" selection-end="5471" vertical-scroll-proportion="0.53968257" vertical-offset="2839" max-vertical-offset="4828">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
