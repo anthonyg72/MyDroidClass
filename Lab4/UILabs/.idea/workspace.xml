@@ -27,16 +27,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="129f8fb8-b663-4b7f-8aa8-3b190a8f9b44" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab7/LocationLab/src/main/java/course/labs/locationlab/PlaceDownloaderTask.java" afterPath="$PROJECT_DIR$/../../Lab7/LocationLab/src/main/java/course/labs/locationlab/PlaceDownloaderTask.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab7/LocationLab/src/main/java/course/labs/locationlab/PlaceViewActivity.java" afterPath="$PROJECT_DIR$/../../Lab7/LocationLab/src/main/java/course/labs/locationlab/PlaceViewActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/UILabs.iml" afterPath="$PROJECT_DIR$/UILabs.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab7/LocationLab/build.gradle" afterPath="$PROJECT_DIR$/../../Lab7/LocationLab/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab6/GraphicsLab/.idea/gradle.xml" afterPath="$PROJECT_DIR$/../../Lab6/GraphicsLab/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab5/NotificationsLab/.idea/misc.xml" afterPath="$PROJECT_DIR$/../../Lab5/NotificationsLab/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab6/GraphicsLab/.idea/misc.xml" afterPath="$PROJECT_DIR$/../../Lab6/GraphicsLab/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab5/NotificationsLab/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Lab5/NotificationsLab/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab6/GraphicsLab/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Lab6/GraphicsLab/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab7/LocationLab/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Lab7/LocationLab/.idea/workspace.xml" />
     </list>
     <ignored path="UILabs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -103,7 +95,7 @@
       <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="22" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+            <state line="34" column="22" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="731">
               <folding />
             </state>
           </provider>
@@ -112,7 +104,7 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../Lab5/NotificationsLab/src/main/java/course/labs/notificationslab/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="26" selection-start="3198" selection-end="3293" vertical-scroll-proportion="0.3608769" vertical-offset="1027" max-vertical-offset="4488">
+            <state line="152" column="0" selection-start="4619" selection-end="4619" vertical-scroll-proportion="-0.43589744" vertical-offset="2584" max-vertical-offset="4488">
               <folding />
             </state>
           </provider>
@@ -121,10 +113,8 @@
       <file leaf-file-name="ToDoManagerActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/todomanager/ToDoManagerActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="132" column="9" selection-start="3678" selection-end="3678" vertical-scroll-proportion="0.0" vertical-offset="1978" max-vertical-offset="3791">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="132" column="9" selection-start="3678" selection-end="3678" vertical-scroll-proportion="0.0" vertical-offset="2244" max-vertical-offset="3842">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -132,10 +122,8 @@
       <file leaf-file-name="PlaceViewAdapter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../Lab7/LocationLab/src/main/java/course/labs/locationlab/PlaceViewAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="38" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0" vertical-offset="24" max-vertical-offset="1649">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="13" column="38" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1683">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -143,7 +131,7 @@
       <file leaf-file-name="StopwatchFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../Lab1/DeskClock/src/com/android/deskclock/stopwatch/StopwatchFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="47" selection-start="2367" selection-end="2367" vertical-scroll-proportion="0.0" vertical-offset="568" max-vertical-offset="11764">
+            <state line="72" column="47" selection-start="2367" selection-end="2367" vertical-scroll-proportion="0.0" vertical-offset="1224" max-vertical-offset="12733">
               <folding />
             </state>
           </provider>
@@ -191,6 +179,9 @@
             <state line="35" column="0" selection-start="1279" selection-end="1279" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="1326">
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -608,7 +599,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -687,7 +678,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -698,6 +689,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager" selected="Android Tests.TestSubmit">
     <configuration default="false" name="TestCancel" type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true" nameIsGenerated="true">
@@ -956,7 +948,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -964,28 +956,28 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16354166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16354166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936078" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1007,13 +999,13 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/todo_item.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="0" selection-start="1279" selection-end="1279" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1326">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/todomanager/AddToDoActivity.java">
@@ -1045,23 +1037,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/todo_item.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="0" selection-start="1279" selection-end="1279" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1326">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/add_todo.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/add_todo.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="91" column="57" selection-start="3145" selection-end="3145" vertical-scroll-proportion="0.0" vertical-offset="1358" max-vertical-offset="3162">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -1074,9 +1066,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/todomanager/ToDoManagerActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="159" column="27" selection-start="4274" selection-end="4274" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3842">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1109,23 +1099,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/todo_item.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="44" selection-start="962" selection-end="962" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1326">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/add_todo.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/add_todo.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="91" column="57" selection-start="3145" selection-end="3145" vertical-scroll-proportion="0.0" vertical-offset="1358" max-vertical-offset="3162">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -1138,9 +1128,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/todomanager/ToDoManagerActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="159" column="27" selection-start="4274" selection-end="4274" vertical-scroll-proportion="0.0" vertical-offset="2514" max-vertical-offset="3842">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1178,23 +1166,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/todo_item.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="34" selection-start="310" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1326">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/add_todo.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/add_todo.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="91" column="57" selection-start="3145" selection-end="3145" vertical-scroll-proportion="0.0" vertical-offset="1358" max-vertical-offset="3162">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -1207,9 +1195,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/todomanager/ToDoManagerActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="159" column="27" selection-start="4274" selection-end="4274" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3842">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1247,23 +1233,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/todo_item.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="34" selection-start="310" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1326">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/add_todo.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/add_todo.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="91" column="57" selection-start="3145" selection-end="3145" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3162">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -1289,11 +1275,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/footer_view.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="11" selection-start="356" selection-end="356" vertical-scroll-proportion="0.2693662" vertical-offset="0" max-vertical-offset="568" />
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/values/strings.xml">
@@ -1323,28 +1309,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/add_todo.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="58" column="43" selection-start="1944" selection-end="1944" vertical-scroll-proportion="0.33274648" vertical-offset="797" max-vertical-offset="3162">
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/source/r/debug/course/labs/todomanager/R.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="19" selection-start="235" selection-end="235" vertical-scroll-proportion="0.11971831" vertical-offset="0" max-vertical-offset="1326" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/todo_item.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="1279" selection-end="1279" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1326">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/todomanager/AddToDoActivity.java">
@@ -1371,26 +1347,32 @@
     <entry file="file://$PROJECT_DIR$/../../Lab7/LocationLab/src/main/java/course/labs/locationlab/PlaceViewAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="38" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0" vertical-offset="24" max-vertical-offset="1649">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/todomanager/ToDoManagerActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="132" column="9" selection-start="3678" selection-end="3678" vertical-scroll-proportion="0.0" vertical-offset="1978" max-vertical-offset="3791">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../Lab5/NotificationsLab/src/main/java/course/labs/notificationslab/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="26" selection-start="3198" selection-end="3293" vertical-scroll-proportion="0.3608769" vertical-offset="1027" max-vertical-offset="4488">
+        <state line="152" column="0" selection-start="4619" selection-end="4619" vertical-scroll-proportion="-0.43589744" vertical-offset="2584" max-vertical-offset="4488">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/todo_item.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="1279" selection-end="1279" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1326">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
   </component>
