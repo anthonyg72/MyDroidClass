@@ -1,0 +1,5 @@
+03-24 00:40:04.976    2350-2350/? I/Lab-ContentProvider? Entered onCreateLoader()
+03-24 00:40:14.146    2350-2350/course.labs.contentproviderlab I/Lab-ContentProvider? Entered footerView.OnClickListener.onClick()
+03-24 00:40:14.256    2350-2350/course.labs.contentproviderlab I/Lab-ContentProvider? Starting Place Download
+03-24 00:40:15.116    2350-2350/course.labs.contentproviderlab I/Lab-ContentProvider? Entered addNewPlace()
+03-24 00:40:20.166    2350-2350/course.labs.contentproviderlab I/Lab-ContentProvider? Place: The Greenhouse Country: United States
