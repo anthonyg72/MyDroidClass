@@ -52,6 +52,7 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.graphics.Color;
+import android.media.MediaPlayer;
 import android.media.Ringtone;
 import android.media.RingtoneManager;
 import android.net.Uri;
@@ -225,47 +226,46 @@ public class StoryViewFragment extends Fragment {
 			// TODO - Set up audio to play back on click. For this part we can easily parse the audio
 			// as a ringtone and play it back as such. Use the RingtonManager function getRingtone on
 			// the audioLinkPath to create the ringtone
-			
-			final Ringtone ringtone = null;
-			
-			
+
+            Uri ringtoneUri = Uri.parse(audioLinkPath);
+
+            final Ringtone ringtone = RingtoneManager.getRingtone(getActivity().getApplicationContext(), ringtoneUri);
+
 			audioButton.setOnClickListener(new OnClickListener() {
 				@Override
 				public void onClick(View v) {
-					
 					// TODO - Play the ringtone
-					
-
-					
+                    ringtone.play();
 				}
 			});
 			
 			// Display the video 
 			
 			String videoLinkPath = String.valueOf(storyData.videoLink).toString();
+            Log.i("MY_TAG", videoLinkPath);
 
 			// Set up video playback using the MediaController android widget
 			// and the video view already set up in the layout file.
 			
 			// TODO - Create a new MediaController for this activity 
-		
+            final MediaController mMediaController = new MediaController(
+                    getActivity(), true);
 
 			// TODO - The MediaController needs an anchorview. Anchor the Media Controller
 			// to the VideoView, videoLinkView, with the function setAnchorView()
-			
-			
+            mMediaController.setAnchorView(videoLinkView);
 			
 			// TODO - Now the VideoView, videoLinkView, needs to have a Media Controller set to it
 			// use the setMediaController function from the VideoView to set it to the new Media Controller
-			
-			
+            videoLinkView.setMediaController(mMediaController);
+
 			// TODO - Now we need to set the URI for the VideoView, use the setVideoURI function on the
 			//  videoLinkPath string from before.
-			
+            videoLinkView.setVideoURI(Uri.parse(videoLinkPath));
 			
 			// TODO - Start the video, using the start function on the VideoView
-			
-			
+			videoLinkView.start();
+
 			// Display the image data
 			
 			imageNameTV.setText(String.valueOf(storyData.imageName).toString());
@@ -274,9 +274,8 @@ public class StoryViewFragment extends Fragment {
 			
 			// TODO - Set the URI of the ImageView to the image path stored in the string
 			// imageMetaDataPath, using the setImageURI function from the ImageView
-			
-			
-			
+			imageMetaDataView.setImageURI(Uri.parse(imageMetaDataPath));
+
 			Long time = Long.valueOf(storyData.storyTime);
 			storyTimeTV.setText(StoryData.FORMAT.format(time));
 			

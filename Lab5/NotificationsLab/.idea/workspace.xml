@@ -27,23 +27,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48259a1f-c112-40d5-b138-fd805e0c7e4e" name="Default" comment="Lab 5: Initial commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Lab4/UILabs/.idea/libraries/Gradle__robotium_solo_5_0_2_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab4/UILabs/.gradle/1.9/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/../../Lab4/UILabs/.gradle/1.9/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab7/LocationLab/.gradle/1.9/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/../../Lab7/LocationLab/.gradle/1.9/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab7/LocationLab/.gradle/1.9/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/../../Lab7/LocationLab/.gradle/1.9/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab7/LocationLab/.gradle/1.9/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/../../Lab7/LocationLab/.gradle/1.9/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab7/LocationLab/.gradle/1.9/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/../../Lab7/LocationLab/.gradle/1.9/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab7/LocationLab/.gradle/1.9/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/../../Lab7/LocationLab/.gradle/1.9/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab7/LocationLab/src/main/java/course/labs/locationlab/PlaceDownloaderTask.java" afterPath="$PROJECT_DIR$/../../Lab7/LocationLab/src/main/java/course/labs/locationlab/PlaceDownloaderTask.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab7/LocationLab/src/main/java/course/labs/locationlab/PlaceViewActivity.java" afterPath="$PROJECT_DIR$/../../Lab7/LocationLab/src/main/java/course/labs/locationlab/PlaceViewActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab4/UILabs/UILabs.iml" afterPath="$PROJECT_DIR$/../../Lab4/UILabs/UILabs.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab7/LocationLab/build.gradle" afterPath="$PROJECT_DIR$/../../Lab7/LocationLab/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab6/GraphicsLab/.idea/gradle.xml" afterPath="$PROJECT_DIR$/../../Lab6/GraphicsLab/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab4/UILabs/.idea/misc.xml" afterPath="$PROJECT_DIR$/../../Lab4/UILabs/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab6/GraphicsLab/.idea/misc.xml" afterPath="$PROJECT_DIR$/../../Lab6/GraphicsLab/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab4/UILabs/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Lab4/UILabs/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab6/GraphicsLab/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Lab6/GraphicsLab/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab7/LocationLab/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Lab7/LocationLab/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Project/iRemember/src/main/java/edu/vuum/mocca/ui/story/CreateStoryActivity.java" afterPath="$PROJECT_DIR$/../../Project/iRemember/src/main/java/edu/vuum/mocca/ui/story/CreateStoryActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NotificationsLab.iml" afterPath="$PROJECT_DIR$/NotificationsLab.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Project/iRemember/src/main/java/edu/vuum/mocca/ui/story/StoryListFragment.java" afterPath="$PROJECT_DIR$/../../Project/iRemember/src/main/java/edu/vuum/mocca/ui/story/StoryListFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Lab8/ContentProviderLabContentProvider/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Lab8/ContentProviderLabContentProvider/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Project/iRemember/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Project/iRemember/.idea/workspace.xml" />
     </list>
     <ignored path="NotificationsLab.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -119,7 +107,7 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/notificationslab/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="188" column="0" selection-start="5471" selection-end="5471" vertical-scroll-proportion="0.53968257" vertical-offset="2839" max-vertical-offset="4828">
+            <state line="201" column="64" selection-start="5707" selection-end="5707" vertical-scroll-proportion="5.676223" vertical-offset="0" max-vertical-offset="4828">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,7 +127,7 @@
       <file leaf-file-name="SelectionListener.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/notificationslab/SelectionListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="17" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="170">
+            <state line="2" column="17" selection-start="56" selection-end="56" vertical-scroll-proportion="-1.36" vertical-offset="0" max-vertical-offset="170">
               <folding />
             </state>
           </provider>
@@ -148,7 +136,7 @@
       <file leaf-file-name="DownloaderTask.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/notificationslab/DownloaderTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="202" column="56" selection-start="6273" selection-end="6273" vertical-scroll-proportion="0.0" vertical-offset="3434" max-vertical-offset="4284">
+            <state line="202" column="56" selection-start="6273" selection-end="6273" vertical-scroll-proportion="11.28" vertical-offset="3376" max-vertical-offset="3944">
               <folding />
             </state>
           </provider>
@@ -157,7 +145,7 @@
       <file leaf-file-name="TestFrontEndActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/notificationslab/TestFrontEndActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="122" column="0" selection-start="2986" selection-end="2986" vertical-scroll-proportion="0.0" vertical-offset="2074" max-vertical-offset="2193">
+            <state line="122" column="0" selection-start="2986" selection-end="2986" vertical-scroll-proportion="-17.96" vertical-offset="1047" max-vertical-offset="1615">
               <folding />
             </state>
           </provider>
@@ -165,13 +153,13 @@
       </file>
       <file leaf-file-name="custom_notification.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/res/layout/custom_notification.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state line="8" column="38" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="476">
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
@@ -603,6 +591,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -759,8 +749,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -895,6 +883,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -920,19 +921,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1069,12 +1057,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1096,7 +1085,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1123,6 +1111,60 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="19" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/notificationslab/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="188" column="0" selection-start="5471" selection-end="5471" vertical-scroll-proportion="0.0" vertical-offset="3196" max-vertical-offset="4828">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="33" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/notificationslab/SelectionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="17" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/notificationslab/DownloaderTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="202" column="56" selection-start="6273" selection-end="6273" vertical-scroll-proportion="0.0" vertical-offset="3434" max-vertical-offset="4284">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/notificationslab/TestFrontEndActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="0" selection-start="2986" selection-end="2986" vertical-scroll-proportion="0.0" vertical-offset="2074" max-vertical-offset="2193">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/custom_notification.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="38" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="19" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="731">
@@ -1168,13 +1210,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/custom_notification.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="38" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="476">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -1222,13 +1264,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/custom_notification.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="38" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="476">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -1276,13 +1318,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/custom_notification.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="38" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="476">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -1330,13 +1372,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/custom_notification.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="38" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="476">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -1394,35 +1436,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/notificationslab/SelectionListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/notificationslab/DownloaderTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="202" column="56" selection-start="6273" selection-end="6273" vertical-scroll-proportion="0.0" vertical-offset="3219" max-vertical-offset="4284">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/notificationslab/TestFrontEndActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="0" selection-start="2986" selection-end="2986" vertical-scroll-proportion="0.0" vertical-offset="1022" max-vertical-offset="1615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/custom_notification.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="38" selection-start="334" selection-end="334" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="476">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -1432,9 +1453,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/notificationslab/SelectionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="17" selection-start="56" selection-end="56" vertical-scroll-proportion="-1.36" vertical-offset="0" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/notificationslab/DownloaderTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="202" column="56" selection-start="6273" selection-end="6273" vertical-scroll-proportion="11.28" vertical-offset="3376" max-vertical-offset="3944">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/notificationslab/TestFrontEndActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="0" selection-start="2986" selection-end="2986" vertical-scroll-proportion="-17.96" vertical-offset="1047" max-vertical-offset="1615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="568">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/notificationslab/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="188" column="0" selection-start="5471" selection-end="5471" vertical-scroll-proportion="0.53968257" vertical-offset="2839" max-vertical-offset="4828">
+        <state line="201" column="64" selection-start="5707" selection-end="5707" vertical-scroll-proportion="5.676223" vertical-offset="0" max-vertical-offset="4828">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

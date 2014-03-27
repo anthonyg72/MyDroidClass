@@ -171,7 +171,7 @@ public class StoryListFragment extends ListFragment {
 		});
 
 		// customize the ListView in whatever desired ways.
-		lv.setBackgroundColor(Color.GRAY);
+		lv.setBackgroundColor(Color.GRAY); //TODO AG - Gray is gross
 		// return the parent view
 		return view;
 	}
@@ -187,7 +187,7 @@ public class StoryListFragment extends ListFragment {
 		try {
 			StoryData.clear();
 
-			String filterWord = filterET.getText().toString();
+            String filterWord = filterET.getText().toString();
 
 			// create String that will match with 'like' in query
 			filterWord = "%" + filterWord + "%";
