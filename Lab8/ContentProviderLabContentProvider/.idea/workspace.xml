@@ -17,8 +17,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f10ac892-dfb3-4e72-96a1-e64cf182530a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Project/iRememberContentProvider/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Project/iRememberContentProvider/.idea/gradle.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Project/iRememberContentProvider/iRememberContentProvider.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Project/iRemember/.gradle/1.9/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/../../Project/iRemember/.gradle/1.9/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Project/iRemember/.gradle/1.9/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/../../Project/iRemember/.gradle/1.9/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Project/iRemember/.gradle/1.9/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/../../Project/iRemember/.gradle/1.9/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Project/iRemember/.gradle/1.9/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/../../Project/iRemember/.gradle/1.9/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Project/iRemember/.gradle/1.9/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/../../Project/iRemember/.gradle/1.9/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Project/iRemember/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../../Project/iRemember/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ContentProviderLabContentProvider.iml" afterPath="$PROJECT_DIR$/ContentProviderLabContentProvider.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Project/iRemember/src/main/java/edu/vuum/mocca/ui/story/CreateStoryActivity.java" afterPath="$PROJECT_DIR$/../../Project/iRemember/src/main/java/edu/vuum/mocca/ui/story/CreateStoryActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Project/iRemember/src/main/java/edu/vuum/mocca/ui/story/StoryListFragment.java" afterPath="$PROJECT_DIR$/../../Project/iRemember/src/main/java/edu/vuum/mocca/ui/story/StoryListFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Project/iRemember/src/main/java/edu/vuum/mocca/ui/story/StoryViewFragment.java" afterPath="$PROJECT_DIR$/../../Project/iRemember/src/main/java/edu/vuum/mocca/ui/story/StoryViewFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Project/iRemember/src/main/res/layout/story_view_fragment.xml" afterPath="$PROJECT_DIR$/../../Project/iRemember/src/main/res/layout/story_view_fragment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Project/iRemember/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Project/iRemember/.idea/workspace.xml" />
     </list>
     <ignored path="ContentProviderLabContentProvider.iws" />
@@ -86,16 +97,7 @@
       <file leaf-file-name="build.gradle" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="22" selection-start="729" selection-end="729" vertical-scroll-proportion="0.7419899" vertical-offset="138" max-vertical-offset="731">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlaceBadgeContentProvider.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/contentproviderlab/provider/PlaceBadgeContentProvider.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="87" column="0" selection-start="2702" selection-end="2702" vertical-scroll-proportion="0.0" vertical-offset="862" max-vertical-offset="1734">
+            <state line="34" column="22" selection-start="729" selection-end="729" vertical-scroll-proportion="0.97470486" vertical-offset="0" max-vertical-offset="731">
               <folding />
             </state>
           </provider>
@@ -104,7 +106,7 @@
       <file leaf-file-name="PlaceBadgesContract.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/contentproviderlab/provider/PlaceBadgesContract.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="47" selection-start="534" selection-end="550" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="510">
+            <state line="10" column="31" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -490,7 +492,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -521,6 +523,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -604,7 +607,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -649,19 +651,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -687,6 +676,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -801,7 +803,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -852,6 +854,27 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="22" selection-start="729" selection-end="729" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/contentproviderlab/provider/PlaceBadgeContentProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="0" selection-start="2702" selection-end="2702" vertical-scroll-proportion="0.0" vertical-offset="1479" max-vertical-offset="1887">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/contentproviderlab/provider/PlaceBadgesContract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="47" selection-start="534" selection-end="550" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="30" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="731">
           <folding />
         </state>
@@ -885,21 +908,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/contentproviderlab/provider/PlaceBadgesContract.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="47" selection-start="534" selection-end="550" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+        <state line="10" column="31" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/course/labs/contentproviderlab/provider/PlaceBadgeContentProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="0" selection-start="2702" selection-end="2702" vertical-scroll-proportion="0.0" vertical-offset="862" max-vertical-offset="1734">
+        <state line="92" column="0" selection-start="2829" selection-end="2892" vertical-scroll-proportion="0.62731874" vertical-offset="1039" max-vertical-offset="1734">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="22" selection-start="729" selection-end="729" vertical-scroll-proportion="0.7419899" vertical-offset="138" max-vertical-offset="731">
+        <state line="34" column="22" selection-start="729" selection-end="729" vertical-scroll-proportion="0.97470486" vertical-offset="0" max-vertical-offset="731">
           <folding />
         </state>
       </provider>

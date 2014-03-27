@@ -240,9 +240,7 @@ public class StoryViewFragment extends Fragment {
 			});
 			
 			// Display the video 
-			
-			String videoLinkPath = String.valueOf(storyData.videoLink).toString();
-            Log.i("MY_TAG", videoLinkPath);
+     		String videoLinkPath = String.valueOf(storyData.videoLink).toString();
 
 			// Set up video playback using the MediaController android widget
 			// and the video view already set up in the layout file.

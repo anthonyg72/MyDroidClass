@@ -140,9 +140,10 @@ University of Maryland to appear in their names.
 	            android:id="@+id/story_view_value_video_link"
 	            android:layout_width="fill_parent"
 	            android:layout_height="200dp"
-	            android:layout_alignParentRight="true"
-	            android:layout_marginTop="10dp"
-	            android:layout_below="@+id/story_view_value_audio_link" />   
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/story_view_value_audio_link"
+                android:layout_centerHorizontal="true"
+            />
 	  <!-- imageName -->
 	    <TextView
 	            android:id="@+id/story_view_label_image_name"
@@ -161,15 +162,15 @@ University of Maryland to appear in their names.
 	            android:layout_alignParentRight="true"
 	            android:layout_below="@+id/story_view_value_video_link"
 	            android:text="@string/story_view_edittext_image_name_default_value"
-	            android:textAppearance="?android:attr/textAppearanceMedium" />   
+	            android:textAppearance="?android:attr/textAppearanceMedium" />
 	  <!-- imageMetaData -->
 	    <TextView
 	            android:id="@+id/story_view_label_image_meta_data"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
 	            android:layout_alignParentLeft="true"
-	            android:layout_alignBaseline="@+id/story_view_value_image_meta_data"
-	            android:layout_alignBottom="@+id/story_view_value_image_meta_data"   
+
+                android:layout_below="@+id/story_view_label_image_name"
 	            android:layout_gravity="left"
 	            android:text="@string/story_view_label_image_meta_data"
 	            android:textAppearance="?android:attr/textAppearanceMedium" />  
@@ -178,8 +179,8 @@ University of Maryland to appear in their names.
 	            android:src="@drawable/ic_launcher"
 	            android:layout_width="220dp"
 	            android:layout_height="wrap_content"
-	            android:layout_alignParentRight="true"
-	            android:layout_below="@+id/story_view_value_image_name"
+	            android:layout_below="@+id/story_view_label_image_name"
+                android:layout_centerHorizontal="true"
 	            android:text="@string/story_view_edittext_image_meta_data_default_value"
 	            android:textAppearance="?android:attr/textAppearanceMedium" />   
 	  <!-- tags -->   
