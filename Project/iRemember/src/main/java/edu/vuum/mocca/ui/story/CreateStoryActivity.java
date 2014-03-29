@@ -95,7 +95,7 @@ public class CreateStoryActivity extends StoryActivityBase {
 
 			fragment.setArguments(getIntent().getExtras());
 
-			getSupportFragmentManager().beginTransaction()
+			getFragmentManager().beginTransaction()
 					.add(android.R.id.content, fragment).commit();
 		}
 	}

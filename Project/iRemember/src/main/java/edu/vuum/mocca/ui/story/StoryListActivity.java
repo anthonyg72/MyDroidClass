@@ -51,6 +51,10 @@ package edu.vuum.mocca.ui.story;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.KeyEvent;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.widget.SearchView;
 
 import edu.vanderbilt.mooc.R;
 
@@ -61,6 +65,7 @@ import edu.vanderbilt.mooc.R;
 public class StoryListActivity extends StoryActivityBase {
     private static final String LOG_TAG = StoryListActivity.class
             .getCanonicalName();
+    StoryListFragment storyListFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,14 +75,35 @@ public class StoryListActivity extends StoryActivityBase {
         // set the Layout of main Activity.
         // (contains only the fragment holder)
         setContentView(R.layout.main);
-        StoryListFragment fragment;
         String imageFragmentTag = "imageFragmentTag";
         if (savedInstanceState == null) {
-            fragment = new StoryListFragment();
-            getSupportFragmentManager().beginTransaction()
-                    .add(R.id.locations, fragment, imageFragmentTag).commit();
+            storyListFragment = new StoryListFragment();
+            getFragmentManager().beginTransaction()
+                    .add(R.id.locations, storyListFragment, imageFragmentTag).commit();
         }
 
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu items for use in the action bar
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.main_activity_actions, menu);
+
+        SearchView searchView = (SearchView) menu.findItem(R.id.action_search).getActionView();
+
+        if (searchView != null)
+        {
+            searchView.setQueryHint(getString(R.string.story_list_filter_hint));
+            searchView.setOnQueryTextListener(storyListFragment.queryTextListener);
+        }
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle presses on the action bar items
+        return storyListFragment.onOptionsItemSelected(item);
     }
 
 	@Override

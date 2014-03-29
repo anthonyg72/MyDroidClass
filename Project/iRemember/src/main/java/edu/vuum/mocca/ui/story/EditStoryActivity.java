@@ -69,7 +69,7 @@ public class EditStoryActivity extends StoryActivityBase {
 
 			editor.setArguments(getIntent().getExtras());
 
-			getSupportFragmentManager().beginTransaction()
+			getFragmentManager().beginTransaction()
 					.add(android.R.id.content, editor).commit();
 		}
 	}

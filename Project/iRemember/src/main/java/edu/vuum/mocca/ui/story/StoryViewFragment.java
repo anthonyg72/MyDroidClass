@@ -58,7 +58,7 @@ import android.media.RingtoneManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.RemoteException;
-import android.support.v4.app.Fragment;
+import android.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -157,7 +157,6 @@ public class StoryViewFragment extends Fragment {
 			Bundle savedInstanceState) {
 		View view = inflater.inflate(R.layout.story_view_fragment, container,
 				false);
-		container.setBackgroundColor(Color.GRAY);
 		return view;
 	}
 

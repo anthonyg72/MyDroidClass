@@ -55,7 +55,7 @@ import android.app.Activity;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.RemoteException;
-import android.support.v4.app.Fragment;
+import android.app.Fragment;
 import android.text.Editable;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -195,7 +195,6 @@ public class EditStoryFragment extends Fragment {
 			Bundle savedInstanceState) {
 		View view = inflater.inflate(R.layout.story_edit_fragment, container,
 				false);
-		container.setBackgroundColor(Color.GRAY);
 		return view;
 	}
 

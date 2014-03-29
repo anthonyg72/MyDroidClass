@@ -50,21 +50,27 @@ package edu.vuum.mocca.ui.story;
 
 import java.util.ArrayList;
 
+import android.app.ActionBar;
 import android.app.Activity;
+import android.app.Fragment;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.v4.app.ListFragment;
+import android.app.ListFragment;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.SearchView;
 import android.widget.TextView;
 import android.widget.TextView.OnEditorActionListener;
 import android.widget.Toast;
@@ -89,10 +95,22 @@ public class StoryListFragment extends ListFragment {
 	ArrayList<StoryData> StoryData;
 	private StoryDataArrayAdaptor aa;
 
-	EditText filterET;
+    public final SearchView.OnQueryTextListener queryTextListener = new SearchView.OnQueryTextListener() {
+        @Override
+        public boolean onQueryTextSubmit(String s) {
+            updateStoryData(s);
+            return true;
+        }
+
+        @Override
+        public boolean onQueryTextChange(String s) {
+            updateStoryData(s);
+            return true;
+        }
+    };
 
 	/**
-	 * @see android.support.v4.app.Fragment#onAttach(android.app.Activity)
+	 * @see android.app.Fragment#onAttach(android.app.Activity)
 	 */
 	@Override
 	public void onAttach(Activity activity) {
@@ -109,7 +127,7 @@ public class StoryListFragment extends ListFragment {
 
 	@Override
 	/**
-	 * @see android.support.v4.app.Fragment#onDetach()
+	 * @see android.app.Fragment#onDetach()
 	 */
 	public void onDetach() {
 		super.onDetach();
@@ -124,7 +142,7 @@ public class StoryListFragment extends ListFragment {
 	 */
 	@Override
 	/**
-	 * @see android.support.v4.app.Fragment#onCreate(android.os.Bundle)
+	 * @see android.app.Fragment#onCreate(android.os.Bundle)
 	 */
 	public void onCreate(Bundle savedInstanceState) {
 		Log.d(LOG_TAG, "onCreate");
@@ -134,44 +152,13 @@ public class StoryListFragment extends ListFragment {
 		setRetainInstance(true);
 	}
 
-	@Override
-	/*
-	 * (non-Javadoc)
-	 * 
-	 * @see
-	 * android.support.v4.app.ListFragment#onCreateView(android.view.LayoutInflater
-	 * , android.view.ViewGroup, android.os.Bundle)
-	 */
+    @Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
-		View view = inflater.inflate(R.layout.story_listview, container, false);
-		// get the ListView that will be displayed
-		ListView lv = (ListView) view.findViewById(android.R.id.list);
 
-		filterET = (EditText) view
-				.findViewById(R.id.story_listview_tags_filter);
-		
-		filterET.addTextChangedListener(new TextWatcher() {
-			
-			@Override
-			public void onTextChanged(CharSequence s, int start, int before, int count) {
-				updateStoryData();
-			}
-			
-			@Override
-			public void beforeTextChanged(CharSequence s, int start, int count,
-					int after) {
-				
-			}
-			
-			@Override
-			public void afterTextChanged(Editable s) {
-				
-			}
-		});
+		View view = inflater.inflate(R.layout.story_listview, container, false);
 
 		// customize the ListView in whatever desired ways.
-		lv.setBackgroundColor(Color.GRAY); //TODO AG - Gray is gross
 		// return the parent view
 		return view;
 	}
@@ -182,12 +169,13 @@ public class StoryListFragment extends ListFragment {
 	// filter text.
 	//
 	
-	public void updateStoryData() {
+	public void updateStoryData(String s) {
 		Log.d(LOG_TAG, "updateStoryData");
+
 		try {
 			StoryData.clear();
 
-            String filterWord = filterET.getText().toString();
+            String filterWord = s;
 
 			// create String that will match with 'like' in query
 			filterWord = "%" + filterWord + "%";
@@ -221,19 +209,9 @@ public class StoryListFragment extends ListFragment {
 				R.layout.story_listview_custom_row, StoryData);
 
 		// update the back end data.
-		updateStoryData();
+		updateStoryData("");
 
 		setListAdapter(aa);
-
-		Button createNewButton = (Button) getView().findViewById(
-				R.id.story_listview_create);
-		createNewButton.setOnClickListener(new OnClickListener() {
-
-			@Override
-			public void onClick(View v) {
-				mOpener.openCreateStoryFragment();
-			}
-		});
 	}
 	
 	/*
@@ -244,8 +222,7 @@ public class StoryListFragment extends ListFragment {
 	@Override
 	public void onResume() {
 		super.onResume();
-		updateStoryData();
-	}
+    }
 
 	@Override
 	/*
@@ -263,4 +240,16 @@ public class StoryListFragment extends ListFragment {
 		mOpener.openViewStoryFragment((StoryData.get(position)).KEY_ID);
 	}
 
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle presses on the action bar items
+        switch (item.getItemId()) {
+            case R.id.action_search:
+                return true;
+            case R.id.action_add:
+                mOpener.openCreateStoryFragment();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
 }

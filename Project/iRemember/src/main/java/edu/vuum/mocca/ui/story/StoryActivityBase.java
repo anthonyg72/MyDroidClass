@@ -52,10 +52,11 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentTransaction;
+import android.app.Fragment;
+import android.app.FragmentTransaction;
 import android.util.Log;
+import android.widget.SearchView;
+
 import edu.vanderbilt.mooc.R;
 
 /**
@@ -64,7 +65,7 @@ import edu.vanderbilt.mooc.R;
  * @author Michael A. Walker
  * 
  */
-public class StoryActivityBase extends FragmentActivity implements
+public class StoryActivityBase extends Activity implements
 		OnOpenWindowInterface {
 
 	boolean promptOnBackPressed = false;
@@ -126,11 +127,11 @@ public class StoryActivityBase extends FragmentActivity implements
 		Log.d(LOG_TAG, "openStoryViewFragment(" + index + ")");
 		if (determineDualPane()) {
 
-			Fragment test = getSupportFragmentManager().findFragmentById(
+			Fragment test = getFragmentManager().findFragmentById(
 					R.id.details);
 
 			// Log.d(LOG_TAG, "open view class:" + test.getClass());
-			FragmentTransaction ft = getSupportFragmentManager()
+			FragmentTransaction ft = getFragmentManager()
 					.beginTransaction();
 			if (test != null && test.getClass() != StoryViewFragment.class) {
 				StoryViewFragment details = StoryViewFragment
@@ -142,7 +143,7 @@ public class StoryActivityBase extends FragmentActivity implements
 
 			} else {
 				// Check what fragment is shown, replace if needed.
-				StoryViewFragment details = (StoryViewFragment) getSupportFragmentManager()
+				StoryViewFragment details = (StoryViewFragment) getFragmentManager()
 						.findFragmentById(R.id.details);
 				if (details == null || details.getUniqueKey() != index) {
 					// Make new fragment to show this selection.
@@ -174,11 +175,11 @@ public class StoryActivityBase extends FragmentActivity implements
 		Log.d(LOG_TAG, "openEditStoryFragment(" + index + ")");
 		if (determineDualPane()) {
 
-			Fragment test = getSupportFragmentManager().findFragmentById(
+			Fragment test = getFragmentManager().findFragmentById(
 					R.id.details);
 
 			// Log.d(LOG_TAG, "open view class:" + test.getClass());
-			FragmentTransaction ft = getSupportFragmentManager()
+			FragmentTransaction ft = getFragmentManager()
 					.beginTransaction();
 			if (test != null && test.getClass() != EditStoryFragment.class) {
 				EditStoryFragment editor = EditStoryFragment.newInstance(index);
@@ -190,7 +191,7 @@ public class StoryActivityBase extends FragmentActivity implements
 
 			} else {
 				// Check what fragment is shown, replace if needed.
-				EditStoryFragment editor = (EditStoryFragment) getSupportFragmentManager()
+				EditStoryFragment editor = (EditStoryFragment) getFragmentManager()
 						.findFragmentById(R.id.details);
 				if (editor == null || editor.getUniqueKey() != index) {
 					// Make new fragment to show this selection.
@@ -222,11 +223,11 @@ public class StoryActivityBase extends FragmentActivity implements
 		Log.d(LOG_TAG, "openCreateStoryFragment");
 		if (determineDualPane()) {
 
-			Fragment test = getSupportFragmentManager().findFragmentById(
+			Fragment test = getFragmentManager().findFragmentById(
 					R.id.details);
 
 			// Log.d(LOG_TAG, "open view class:" + test.getClass());
-			FragmentTransaction ft = getSupportFragmentManager()
+			FragmentTransaction ft = getFragmentManager()
 					.beginTransaction();
 			if (test != null && test.getClass() != CreateStoryFragment.class) {
 				CreateStoryFragment details = CreateStoryFragment.newInstance();
@@ -238,7 +239,7 @@ public class StoryActivityBase extends FragmentActivity implements
 
 			} else {
 				// Check what fragment is shown, replace if needed.
-				CreateStoryFragment details = (CreateStoryFragment) getSupportFragmentManager()
+				CreateStoryFragment details = (CreateStoryFragment) getFragmentManager()
 						.findFragmentById(R.id.details);
 				if (details == null) {
 					// Make new fragment to show this selection.
@@ -267,11 +268,18 @@ public class StoryActivityBase extends FragmentActivity implements
 		Log.d(LOG_TAG, "openCreateStoryFragment");
 		if (determineDualPane()) {
 			// already displayed
-			Fragment test = getSupportFragmentManager().findFragmentByTag(
+			Fragment test = getFragmentManager().findFragmentByTag(
 					"imageFragmentTag");
 			if (test != null) {
 				StoryListFragment t = (StoryListFragment) test;
-				t.updateStoryData();
+                SearchView searchView = (SearchView) findViewById(R.id.action_search);
+                if (searchView != null) {
+                    String s = searchView.getQuery().toString();
+                    if (s != null)
+    				    t.updateStoryData(s);
+                    else
+                        t.updateStoryData("");
+                }
 			}
 
 		} else {
@@ -284,10 +292,10 @@ public class StoryActivityBase extends FragmentActivity implements
 
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 		if (determineDualPane()) {
-			getSupportFragmentManager().findFragmentById(R.id.details)
+			getFragmentManager().findFragmentById(R.id.details)
 					.onActivityResult(requestCode, resultCode, data);
 		} else {
-			getSupportFragmentManager().findFragmentById(android.R.id.content)
+			getFragmentManager().findFragmentById(android.R.id.content)
 					.onActivityResult(requestCode, resultCode, data);
 		}
 

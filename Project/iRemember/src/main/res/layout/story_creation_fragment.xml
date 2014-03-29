@@ -51,7 +51,6 @@ University of Maryland to appear in their names.
     android:id="@+id/StoryEditRelativeLayout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/gray"
     android:orientation="horizontal" >
 
     <ScrollView

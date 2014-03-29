@@ -27,8 +27,6 @@ android {
 }
 
 dependencies {
-    compile files('libs/robotium-solo-5.0.2-SNAPSHOT.jar')
-    compile files('libs/android-support-v4.jar')
 }
 
 allprojects {
