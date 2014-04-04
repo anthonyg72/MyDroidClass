@@ -23,35 +23,13 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="MY_TAG" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="INFO" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec88836f-3b02-4995-9d97-a77b1779fbe6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/res/menu/main_activity_actions.xml" />
-      <change type="DELETED" beforePath="D:\Documents\Github\MyDroidClass\Project\iRemember\src\main\res\menu\main.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\Documents\Github\MyDroidClass\Project\iRemember\src\main\res\menu\sound_record.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iRememberContentProvider/.gradle/1.9/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/../iRememberContentProvider/.gradle/1.9/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/vuum/mocca/ui/story/CreateStoryActivity.java" afterPath="$PROJECT_DIR$/src/main/java/edu/vuum/mocca/ui/story/CreateStoryActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/vuum/mocca/ui/story/CreateStoryFragment.java" afterPath="$PROJECT_DIR$/src/main/java/edu/vuum/mocca/ui/story/CreateStoryFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/vuum/mocca/ui/story/EditStoryActivity.java" afterPath="$PROJECT_DIR$/src/main/java/edu/vuum/mocca/ui/story/EditStoryActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/vuum/mocca/ui/story/EditStoryFragment.java" afterPath="$PROJECT_DIR$/src/main/java/edu/vuum/mocca/ui/story/EditStoryFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/vuum/mocca/ui/story/StoryActivityBase.java" afterPath="$PROJECT_DIR$/src/main/java/edu/vuum/mocca/ui/story/StoryActivityBase.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/vuum/mocca/ui/story/StoryListActivity.java" afterPath="$PROJECT_DIR$/src/main/java/edu/vuum/mocca/ui/story/StoryListActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/vuum/mocca/ui/story/StoryListFragment.java" afterPath="$PROJECT_DIR$/src/main/java/edu/vuum/mocca/ui/story/StoryListFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/vuum/mocca/ui/story/StoryViewFragment.java" afterPath="$PROJECT_DIR$/src/main/java/edu/vuum/mocca/ui/story/StoryViewFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/vuum/mocca/ui/story/ViewStoryActivity.java" afterPath="$PROJECT_DIR$/src/main/java/edu/vuum/mocca/ui/story/ViewStoryActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/res/layout/activity_sound_record.xml" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_sound_record.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/iRemember.iml" afterPath="$PROJECT_DIR$/iRemember.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iRememberContentProvider/iRememberContentProvider.iml" afterPath="$PROJECT_DIR$/../iRememberContentProvider/iRememberContentProvider.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/res/layout/main.xml" afterPath="$PROJECT_DIR$/src/main/res/layout/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/res/layout/story_creation_fragment.xml" afterPath="$PROJECT_DIR$/src/main/res/layout/story_creation_fragment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/res/layout/story_listview.xml" afterPath="$PROJECT_DIR$/src/main/res/layout/story_listview.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/res/layout/story_listview_custom_row.xml" afterPath="$PROJECT_DIR$/src/main/res/layout/story_listview_custom_row.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/res/layout/story_view_fragment.xml" afterPath="$PROJECT_DIR$/src/main/res/layout/story_view_fragment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/src/main/res/values/styles.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../iRememberContentProvider/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../iRememberContentProvider/.idea/workspace.xml" />
     </list>
     <ignored path="iRemember.iws" />
@@ -120,11 +98,8 @@
       <file leaf-file-name="StoryListActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/vuum/mocca/ui/story/StoryListActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="9" selection-start="4241" selection-end="4241" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1445">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4278#4320#0" expanded="true" />
-              </folding>
+            <state line="105" column="13" selection-start="4667" selection-end="4667" vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="2635">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -132,50 +107,51 @@
       <file leaf-file-name="StoryListFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/vuum/mocca/ui/story/StoryListFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="254" column="1" selection-start="8267" selection-end="8267" vertical-scroll-proportion="0.0" vertical-offset="3825" max-vertical-offset="4437">
-              <folding>
-                <element signature="e#0#8268#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="97" column="47" selection-start="4065" selection-end="4084" vertical-scroll-proportion="0.0" vertical-offset="1649" max-vertical-offset="4437">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main_activity_actions.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/res/menu/main_activity_actions.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="22" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="340">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="story_view_fragment.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/res/layout/story_view_fragment.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="34" selection-start="3832" selection-end="3832" vertical-scroll-proportion="-13.68" vertical-offset="967" max-vertical-offset="5066">
+            <state line="77" column="34" selection-start="3832" selection-end="3832" vertical-scroll-proportion="0.0" vertical-offset="967" max-vertical-offset="5066">
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
         </entry>
       </file>
-      <file leaf-file-name="SoundRecordActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SoundRecordActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/vuum/mocca/ui/story/SoundRecordActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="49" selection-start="3419" selection-end="3427" vertical-scroll-proportion="0.018952062" vertical-offset="238" max-vertical-offset="3349">
-              <folding>
-                <element signature="e#6161#6508#0" expanded="true" />
-                <element signature="e#6497#6498#0" expanded="true" />
-              </folding>
+            <state line="145" column="0" selection-start="5301" selection-end="5301" vertical-scroll-proportion="0.0" vertical-offset="2465" max-vertical-offset="4369">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_sound_record.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="activity_sound_record.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_sound_record.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="40" selection-start="3160" selection-end="3160" vertical-scroll-proportion="-13.8" vertical-offset="607" max-vertical-offset="1207">
-              <folding>
-                <element signature="e#3086#3119#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
           <provider editor-type-id="android-designer">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="54" column="60" selection-start="3062" selection-end="3062" vertical-scroll-proportion="0.9931857" vertical-offset="335" max-vertical-offset="1207">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -575,16 +551,15 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/vuum/mocca/ui/story/StoryActivityBase.java" />
         <option value="$PROJECT_DIR$/src/main/res/layout/story_listview.xml" />
         <option value="$PROJECT_DIR$/src/main/res/layout/story_listview_custom_row.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/vuum/mocca/ui/story/StoryListActivity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/vuum/mocca/ui/story/StoryListFragment.java" />
         <option value="$PROJECT_DIR$/src/main/res/layout/activity_sound_record.xml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/vuum/mocca/ui/story/SoundRecordActivity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/vuum/mocca/ui/story/StoryListFragment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/vuum/mocca/ui/story/StoryListActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-10" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -614,8 +589,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -840,6 +813,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -876,6 +851,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="982" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FullScreen" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="RunManager" selected="Android Application.iRemember">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -1063,16 +1039,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-10" y="0" width="1936" height="1056" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296875" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997833" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30877572" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1080,7 +1055,7 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936078" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30877572" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30877572" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1093,6 +1068,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1113,13 +1089,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/res/menu/main_activity_actions.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="340">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/sdk/extras/android/support/v4/android-support-v4.jar!/android/support/v4/app/FragmentActivity.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="92" column="16" selection-start="3997" selection-end="3997" vertical-scroll-proportion="0.0" vertical-offset="1564" max-vertical-offset="2142" />
@@ -1152,10 +1121,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/vuum/mocca/ui/story/StoryListActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="66" column="43" selection-start="3184" selection-end="3184" vertical-scroll-proportion="0.0" vertical-offset="935" max-vertical-offset="935">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4278#4320#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1271,31 +1237,31 @@
       </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/data/res/layout/auto_complete_list.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="16" selection-start="765" selection-end="765" vertical-scroll-proportion="0.33274648" vertical-offset="100" max-vertical-offset="782" />
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="16" selection-start="765" selection-end="765" vertical-scroll-proportion="0.33274648" vertical-offset="100" max-vertical-offset="782" />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/story_creation_fragment.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="0" selection-start="2918" selection-end="2918" vertical-scroll-proportion="-7.56" vertical-offset="712" max-vertical-offset="5644">
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/story_edit_fragment.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/story_edit_fragment.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="38" selection-start="765" selection-end="765" vertical-scroll-proportion="18.36" vertical-offset="663" max-vertical-offset="5134">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/vuum/mocca/ui/story/EditStoryActivity.java">
@@ -1333,11 +1299,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/app/Activity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="379" column="41" selection-start="16731" selection-end="16731" vertical-scroll-proportion="0.33222038" vertical-offset="6227" max-vertical-offset="7565" />
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/widget/SearchView.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="16" selection-start="810" selection-end="810" vertical-scroll-proportion="0.33333334" vertical-offset="136" max-vertical-offset="1717" />
@@ -1356,23 +1317,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/story_listview.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="55" column="0" selection-start="2946" selection-end="2946" vertical-scroll-proportion="0.64084506" vertical-offset="571" max-vertical-offset="1139">
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/story_listview_custom_row.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/story_listview_custom_row.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="0" selection-start="2910" selection-end="2910" vertical-scroll-proportion="0.41396934" vertical-offset="658" max-vertical-offset="1530">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/vuum/mocca/ui/story/StoryViewFragment.java">
@@ -1383,18 +1344,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="20" selection-start="2908" selection-end="2908" vertical-scroll-proportion="0.6524702" vertical-offset="535" max-vertical-offset="1122">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/vuum/mocca/ui/story/StoryActivityBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="331" column="34" selection-start="11330" selection-end="11330" vertical-scroll-proportion="0.7419899" vertical-offset="4133" max-vertical-offset="4726">
+        <state line="54" column="20" selection-start="2908" selection-end="2908" vertical-scroll-proportion="0.6524702" vertical-offset="535" max-vertical-offset="1122">
           <folding />
         </state>
       </provider>
@@ -1406,13 +1360,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/menu/main_activity_actions.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="22" selection-start="180" selection-end="180" vertical-scroll-proportion="0.11111111" vertical-offset="0" max-vertical-offset="612">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/vuum/mocca/ui/story/OnOpenWindowInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="64" column="16" selection-start="3182" selection-end="3182" vertical-scroll-proportion="0.5" vertical-offset="0" max-vertical-offset="612">
@@ -1420,55 +1367,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/vuum/mocca/ui/story/StoryListFragment.java">
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/story_view_fragment.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="254" column="1" selection-start="8267" selection-end="8267" vertical-scroll-proportion="0.0" vertical-offset="3825" max-vertical-offset="4437">
-          <folding>
-            <element signature="e#0#8268#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="77" column="34" selection-start="3832" selection-end="3832" vertical-scroll-proportion="0.0" vertical-offset="967" max-vertical-offset="5066">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/vuum/mocca/ui/story/SoundRecordActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="145" column="0" selection-start="5301" selection-end="5301" vertical-scroll-proportion="0.0" vertical-offset="2443" max-vertical-offset="3315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/view/MenuItem.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="22" selection-start="2030" selection-end="2030" vertical-scroll-proportion="0.33333334" vertical-offset="1156" max-vertical-offset="1853" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/app/Activity.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="4" selection-start="2007" selection-end="2056" vertical-scroll-proportion="0.0" vertical-offset="572" max-vertical-offset="7565" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/vuum/mocca/ui/story/StoryActivityBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="43" selection-start="3128" selection-end="3128" vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="4726">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/menu/main_activity_actions.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="22" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/vuum/mocca/ui/story/StoryListActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="9" selection-start="4241" selection-end="4241" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1445">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4278#4320#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/res/layout/story_view_fragment.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="34" selection-start="3832" selection-end="3832" vertical-scroll-proportion="-13.68" vertical-offset="967" max-vertical-offset="5066">
+        <state line="105" column="13" selection-start="4667" selection-end="4667" vertical-scroll-proportion="0.0" vertical-offset="1139" max-vertical-offset="2499">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/vuum/mocca/ui/story/StoryListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="47" selection-start="4065" selection-end="4084" vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="4437">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_sound_record.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="40" selection-start="3160" selection-end="3160" vertical-scroll-proportion="-13.8" vertical-offset="607" max-vertical-offset="1207">
-          <folding>
-            <element signature="e#3086#3119#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/vuum/mocca/ui/story/SoundRecordActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="49" selection-start="3419" selection-end="3427" vertical-scroll-proportion="0.018952062" vertical-offset="238" max-vertical-offset="3349">
-          <folding>
-            <element signature="e#6161#6508#0" expanded="true" />
-            <element signature="e#6497#6498#0" expanded="true" />
-          </folding>
+        <state line="54" column="60" selection-start="3062" selection-end="3062" vertical-scroll-proportion="0.9931857" vertical-offset="335" max-vertical-offset="1207">
+          <folding />
         </state>
       </provider>
     </entry>

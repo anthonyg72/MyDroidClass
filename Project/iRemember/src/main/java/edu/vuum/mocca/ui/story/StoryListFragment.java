@@ -221,7 +221,7 @@ public class StoryListFragment extends ListFragment {
 	 */
 	@Override
 	public void onResume() {
-		super.onResume();
+        super.onResume();
     }
 
 	@Override

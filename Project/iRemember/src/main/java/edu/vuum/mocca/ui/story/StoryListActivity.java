@@ -66,6 +66,7 @@ public class StoryListActivity extends StoryActivityBase {
     private static final String LOG_TAG = StoryListActivity.class
             .getCanonicalName();
     StoryListFragment storyListFragment;
+    Menu mMenu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -85,10 +86,33 @@ public class StoryListActivity extends StoryActivityBase {
     }
 
     @Override
+    protected void onResume() {
+        super.onResume();
+
+        if (mMenu != null) {
+            SearchView searchView = (SearchView) mMenu.findItem(R.id.action_search).getActionView();
+            if (searchView != null) {
+                String s = searchView.getQuery().toString();
+                //The OnQueryTextListener does not notify unless the text changes
+                //We could either call the setQuery twice, or manually call updateStoryData()
+                if (s == null) {
+                    searchView.setQuery(" ", true);
+                    searchView.setQuery("", true);
+                }
+                else {
+                    searchView.setQuery(" ", true);
+                    searchView.setQuery(s, true);
+                }
+            }
+        }
+    }
+
+    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu items for use in the action bar
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.main_activity_actions, menu);
+        mMenu = menu;
 
         SearchView searchView = (SearchView) menu.findItem(R.id.action_search).getActionView();
 
